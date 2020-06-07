@@ -93,6 +93,12 @@ return [
 
     ],
 
+    'sqlite_testing' => [
+        'driver' => 'sqlite',
+        'database' => ':memory:',
+        'prefix' => '',
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | Migration Repository Table
